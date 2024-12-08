@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Centre Médical</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="../dist/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  </head>
+  <body class="bg-white dark:bg-gray-900">
+    <header>
+      <nav class="bg-white dark:bg-gray-800 shadow-lg">
+				<div class="max-w-7xl mx-auto px-4">
+					<div class="flex justify-between items-center h-16">
+						<!-- Logo -->
+						<div class="flex-shrink-0 flex items-center">
+							<a
+								href="#"
+								class="text-xl font-bold text-indigo-600"
+								>Logo</a
+							>
+						</div>
+
+						<!-- Desktop Menu -->
+						<div class="hidden md:flex items-center space-x-8">
+							<a
+								href="index.html"
+								class="text-gray-700 dark:text-gray-300 hover:text-white hover:bg-indigo-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
+								>Accueil</a
+							>
+							<a
+								href="services.html"
+								class="text-gray-700 dark:text-gray-300 hover:text-white hover:bg-indigo-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
+								>Services</a
+							>
+							<a
+								href="about.html"
+								class="text-gray-700 dark:text-gray-300 hover:text-white hover:bg-indigo-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
+								>À propos</a
+							>
+							<a
+								href="contact.html"
+								class="text-indigo-600 dark:text-indigo-400 px-3 py-2 rounded-md text-sm font-medium hover:bg-indigo-600 hover:text-white transition-colors duration-200"
+								>Contact</a
+							>
+							<!-- Dark Mode Toggle -->
+							<button
+								class="theme-toggle p-2 text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm"
+							>
+              <span>
+                <i class="fas fa-sun"></i>
+              </span>
+              <span>
+                <i class="fas fa-moon"></i>
+              </span>
+							</button>
+						</div>
+
+						<!-- Mobile menu button -->
+						<div class="md:hidden flex items-center">
+							<button
+								id="mobile-menu-button"
+								class="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-indigo-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+							>
+								<svg
+									class="h-6 w-6"
+									stroke="currentColor"
+									fill="none"
+									viewBox="0 0 24 24"
+								>
+									<path
+										class="inline-flex"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-width="2"
+										d="M4 6h16M4 12h16M4 18h16"
+									/>
+								</svg>
+							</button>
+						</div>
+					</div>
+
+					<!-- Mobile Menu -->
+					<div
+						id="mobile-menu"
+						class="hidden md:hidden"
+					>
+						<div class="px-2 pt-2 pb-3 space-y-1">
+							<a
+								href="index.html"
+								class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-300 hover:text-white hover:bg-indigo-600"
+								>Accueil</a
+							>
+							<a
+								href="services.html"
+								class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-300 hover:text-white hover:bg-indigo-600"
+								>Services</a
+							>
+							<a
+								href="about.html"
+								class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-300 hover:text-white hover:bg-indigo-600"
+								>À propos</a
+							>
+							<a
+								href="contact.html"
+								class="block px-3 py-2 rounded-md text-base font-medium text-indigo-600 dark:text-indigo-400 hover:text-white hover:bg-indigo-600"
+								>Contact</a
+							>
+							<!-- Dark Mode Toggle -->
+							<button
+								class="theme-toggle p-2 text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm"
+							>
+              <span>
+                <i class="fas fa-sun"></i>
+              </span>
+              <span>
+                <i class="fas fa-moon"></i>
+              </span>
+							</button>
+						</div>
+					</div>
+				</div>
+      </nav>
+    </header>
+
+    <!-- Contact Hero Section -->
+    <section class="bg-white dark:bg-gray-900">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
+        <div class="text-center">
+          <h1 class="text-4xl font-bold text-gray-900 dark:text-white mb-4">
+            Contactez-nous
+          </h1>
+          <p class="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+            Notre équipe est à votre écoute pour répondre à toutes vos questions
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Informations de contact et formulaire -->
+    <section class="py-16 bg-gray-50 dark:bg-gray-800">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <!-- Informations de contact -->
+          <div>
+            <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-8">
+              Nos Coordonnées
+            </h2>
+            <div class="space-y-6">
+              <div class="flex items-start">
+                <div class="flex-shrink-0">
+                  <i class="fas fa-map-marker-alt text-2xl text-indigo-600 dark:text-indigo-400"></i>
+                </div>
+                <div class="ml-4">
+                  <h3 class="text-lg font-medium text-gray-900 dark:text-white">Adresse</h3>
+                  <p class="mt-1 text-gray-600 dark:text-gray-300">
+                    123 Rue de la Santé<br />
+                    75000 Paris, France
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex items-start">
+                <div class="flex-shrink-0">
+                  <i class="fas fa-phone-alt text-2xl text-indigo-600 dark:text-indigo-400"></i>
+                </div>
+                <div class="ml-4">
+                  <h3 class="text-lg font-medium text-gray-900 dark:text-white">Téléphone</h3>
+                  <p class="mt-1 text-gray-600 dark:text-gray-300">+33 1 23 45 67 89</p>
+                </div>
+              </div>
+
+              <div class="flex items-start">
+                <div class="flex-shrink-0">
+                  <i class="fas fa-envelope text-2xl text-indigo-600 dark:text-indigo-400"></i>
+                </div>
+                <div class="ml-4">
+                  <h3 class="text-lg font-medium text-gray-900 dark:text-white">Email</h3>
+                  <p class="mt-1 text-gray-600 dark:text-gray-300">contact@medical.com</p>
+                </div>
+              </div>
+
+              <div class="flex items-start">
+                <div class="flex-shrink-0">
+                  <i class="fas fa-clock text-2xl text-indigo-600 dark:text-indigo-400"></i>
+                </div>
+                <div class="ml-4">
+                  <h3 class="text-lg font-medium text-gray-900 dark:text-white">Horaires d'ouverture</h3>
+                  <p class="mt-1 text-gray-600 dark:text-gray-300">
+                    Lundi - Vendredi: 8h00 - 20h00<br />
+                    Samedi: 9h00 - 18h00<br />
+                    Dimanche: Fermé
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Formulaire de contact -->
+          <div>
+            <form class="bg-white dark:bg-gray-700 rounded-lg shadow-lg p-8">
+              <div class="grid grid-cols-1 gap-6">
+                <div>
+                  <label for="nom" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                    <i class="fas fa-user mr-2"></i>Nom complet
+                  </label>
+                  <input
+                    type="text"
+                    id="nom"
+                    name="nom"
+                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 dark:bg-gray-600 dark:border-gray-500 dark:text-white transition duration-200"
+                    placeholder="Votre nom"
+                  />
+                </div>
+
+                <div>
+                  <label for="email" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                    <i class="fas fa-envelope mr-2"></i>Email
+                  </label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 dark:bg-gray-600 dark:border-gray-500 dark:text-white transition duration-200"
+                    placeholder="votre@email.com"
+                  />
+                </div>
+
+                <div>
+                  <label for="sujet" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                    <i class="fas fa-tag mr-2"></i>Sujet
+                  </label>
+                  <select
+                    id="sujet"
+                    name="sujet"
+                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 dark:bg-gray-600 dark:border-gray-500 dark:text-white transition duration-200"
+                  >
+                    <option value="">Sélectionnez un sujet</option>
+                    <option value="rdv">Prise de rendez-vous</option>
+                    <option value="info">Demande d'informations</option>
+                    <option value="urgence">Urgence</option>
+                    <option value="autre">Autre</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label for="message" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                    <i class="fas fa-comment mr-2"></i>Message
+                  </label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 dark:bg-gray-600 dark:border-gray-500 dark:text-white transition duration-200"
+                    placeholder="Votre message..."
+                  ></textarea>
+                </div>
+
+                <div>
+                  <button
+                    type="submit"
+                    class="w-full px-6 py-3 bg-indigo-600 text-white font-medium rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition duration-200"
+                  >
+                    <i class="fas fa-paper-plane mr-2"></i>Envoyer le message
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="py-16 bg-white dark:bg-gray-900">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-gray-200 dark:bg-gray-700 rounded-lg overflow-hidden h-96">
+          <!-- Remplacer par une vraie carte Google Maps -->
+          <div class="w-full h-full flex items-center justify-center text-gray-500 dark:text-gray-400">
+            <p><i class="fas fa-map text-4xl"></i><br>Carte Google Maps ici</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Même footer que index.html -->
+    <footer class="bg-gray-900 dark:bg-gray-950 text-gray-300">
+      <!-- Copier le même contenu du footer -->
+    </footer>
+
+    <script src="../src/script.js"></script>
+  </body>
+</html>
